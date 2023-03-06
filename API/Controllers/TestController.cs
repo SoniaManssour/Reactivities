@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace API.Controllers
 {
     [ApiController]
-    [Route("[controller]")] //localhost.5000
+    [Route("[controller]")] //localhost:5000
     public class TestController
     {
         [HttpGet(Name = "hfrkjvhvhkfldgi")]
