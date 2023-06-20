@@ -1,7 +1,7 @@
 using Persistence;
-using Microsoft.AspNetCore.Mvc;  // to powinno sie dodac przez BaseApiController!! czemu musze to tutaj dodawac
-using Domain; // to powinno sie dodac przez BaseApiController!! czemu musze to tutaj dodawac (inaczej nie dziala [HttpGet])
-using Microsoft.EntityFrameworkCore; //tego tez nie powinnam dodawac ale nie ma ToListAsynch()
+using Microsoft.AspNetCore.Mvc;  
+using Domain; 
+using Microsoft.EntityFrameworkCore; 
 using MediatR;
 using Application.Activities;
 
